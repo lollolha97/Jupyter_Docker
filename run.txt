@@ -1,0 +1,1 @@
+docker run --rm -it -d -p 8888:8888 --name jupyter -v $(pwd)/src:/workspace jupyter
